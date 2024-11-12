@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hobbies - Kolluru Saharsh</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header>
+       <h1>My Hobbies(K.SAHARSH)</h1>
+       <nav>
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="social.html">Social Media & Projects</a></li>
+           </ul>
+       </nav>
+   </header>
+
+   <section class="hobbies-section">
+       <h2>Hobbies</h2>
+       <p>Here are some of my favorite activities that I enjoy in my spare time:</p>
+       <ul>
+           <li>Photography: Capturing unique moments and landscapes.</li>
+           <li>Technology & Coding: Exploring new tech trends and improving my coding skills.</li>
+           <li>Travel: Visiting new places and experiencing different cultures.</li>
+           <li>Gaming: Engaging in various video games for relaxation.</li>
+           <li>Music: Listening to a diverse range of genres.</li>
+		   <li>--------------THANK YOU-----------------------</li>
+       </ul>
+   </section>
+</body>
+</html>
+
+ <!-- Gaming Video Section -->
+   <section class="video-section">
+       <h2>Gaming Highlight</h2>
+       <video width="100%" height="auto" controls>
+           <source src="gaming-video.mp4" type="video/mp4">
+           <h2>This Video is not supported in Your Browser!!</h2>
+       </video>
+   </section>
+
+   <!-- Memories/Gallery Section -->
+   <section class="memories-section">
+       <h2>Memories & Photography</h2>
+       <div class="gallery-grid">
+           <!-- CHANGES: Wrap images in clickable divs and give each image an onclick attribute -->
+           <div onclick="openLightbox('image1.jpg')">
+               <img src="image1.jpeg" alt="Memory 1" class="gallery-image">
+           </div>
+           <div onclick="openLightbox('image2.jpg')">
+               <img src="image2.jpg" alt="Memory 2" class="gallery-image">
+           </div>
+           <div onclick="openLightbox('image3.jpg')">
+               <img src="image3.jpg" alt="Memory 3" class="gallery-image">
+           </div>
+           <div onclick="openLightbox('image4.jpg')">
+               <img src="image4.jpg" alt="Memory 4" class="gallery-image">
+           </div>
+		   <div onclick="openLightbox('image5.jpg')">
+               <img src="image5.jpg" alt="Memory 5" class="gallery-image">
+           </div>
+		   <div onclick="openLightbox('image6.jpg')">
+               <img src="image6.jpg" alt="Memory 6" class="gallery-image">
+           </div>
+		   <div onclick="openLightbox('image7.jpg')">
+               <img src="image7.jpg" alt="Memory 7" class="gallery-image">
+           </div>
+		   <div onclick="openLightbox('image8.jpg')">
+               <img src="image8.jpg" alt="Memory 8" class="gallery-image">
+           </div>
+		   <div onclick="openLightbox('image9.jpg')">
+               <img src="image9.jpg" alt="Memory 9" class="gallery-image">
+           </div>
+		   <div onclick="openLightbox('image10.jpg')">
+               <img src="image10.jpg" alt="Memory 10" class="gallery-image">
+           </div>
+		   <div onclick="openLightbox('hassleblad.webp')">
+               <img src="hassleblad.webp" alt="Memory 11" class="gallery-image">
+           </div>
+		   <div onclick="openLightbox('image11.jpg')">
+               <img src="image11.jpg" alt="Memory 12" class="gallery-image">
+           </div>
+		   
+           <!-- Add more images as needed -->
+       </div>
+   </section>
+
+   <!-- CHANGES: Lightbox Overlay -->
+   <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+       <img id="lightbox-img" src="" alt="Expanded view">
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolluru Saharsh - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+	<body onload="showWelcomeMessage()">
+   <!-- Welcome Message Bar -->
+   <div id="welcome-message" class="welcome-message">
+       Welcome To My Site
+       <span onclick="closeWelcomeMessage()" class="close-message">✖</span>
+   </div>
+   <div class="background-overlay"></div>
+   <body>
+     <header class="header-image">
+        <h1 class="typing-animation">Kolluru Saharsh</h1>
+        <nav>
+            <ul>
+               <li><a href="#about" class="bounce">About Me</a></li>
+               <li><a href="#resume" class="bounce">Resume</a></li>
+               <li><a href="social.html" class="bounce">Social Media & Projects</a></li>
+               <li><a href="hobbies.html" class="bounce">Hobbies</a></li>
+			   <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about" class="section-overlay about-animation">
+       <div class="about-container">
+           <div class="about-text">
+			   <h2 class="about-header">About Me</h2>
+		        <img src="Profile.jpg" alt="Kolluru Saharsh" class="profile-image">
+		        <p class="about-text">
+        <p>As a student studying B.Com (Hons) Accounting and Finance  i have learnt how to operate Tally ERP,SAP,Auditing and other financial tools for creating and maintaining accounts. Apart from that  i had the opportunity to gain hands-on experience in two internships related to Python with machine learning. In the first internship at Skill vertex, i had the chance to learn about and work on projects related to the California price prediction test and b. cancer prediction. In the second internship at Edureka, i expanded my knowledge further with exposure to Python with machine learning, deep learning, Keras, Pytorch, Tensor Flow, Tableau,(CNN-Convolutional neural networks) DSA,and data visualization.As this intership is still in progress.Apart that i have IBM certified Data scientist (Data science)Certificate provided through Coursera.
+My experience in both internships has equipped me with valuable skills in Python with machine learning, including proficiency in using frameworks such as Keras, Pytorch, and Tensor Flow. Additionally, my experience in data visualization tools which has given me the ability to effectively communicate data insights and findings through tools like Tableau.
+
+Beyond Python, i also possess a good understanding of R programming and also done many practical implementations,as well as i have  worked upon C++, C#, and coreJava. These skills demonstrate my versatility and ability to adapt to different programming languages and environments.
+Overall, My education and internship experiences have provided me with a strong foundation in accounting and finance, as well as a diverse set of technical skills in programming and data analysis. These skills will be valuable to me as i continue to pursue my career in the field of accounting and finance and Fintech related fields that require data analysis and programming expertise.
+
+I have also  completed a crash course on HTML, CSS, and JavaScript, i also possess the ability to create web pages from scratch. HTML provides the structure of a web page, CSS offers the design and styling elements, and JavaScript adds interactive functionality to web page. I have learned how to create HTML elements, format and style them with CSS, and add interactivity with JavaScript. In addition, i have become familiar with web development tools such as text editors and debugging tools to assist in creating web pages With this knowledge and skill set, I can create dynamic, functional and aesthetically pleasing web pages
+#Proficient in Using Kali Linux,Ubuntu Linux and Mac os X and have good understanding of Cybersecurity and I am a person who has a Blend of Business Acumen and Evolving Technology </p>
+        <!-- Full 'About Me' content here -->
+	  <form>
+          <label for="name">What is Your Name?</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name">
+      </form>		
+    </div>
+	<div class="image-gallery"> <!-- CHANGES: Image Gallery beside About Me text -->
+               <img src="image1.jpeg" alt="Image 1" class="gallery-image">
+               <img src="image2.jpg" alt="Image 2" class="gallery-image">
+               <img src="image3.jpg" alt="Image 3" class="gallery-image">
+		       <img src="image6.jpg" alt="Image 6" class="gallery-image">
+		       <img src="coding.jpg" alt="coding" class="gallery-image">
+		       <img src="dance.png" alt="dance" class="gallery-image">
+		       <img src="hassleblad.webp" alt="hassleblad" class="gallery-image">
+           </div>
+       </div>
+   </section>
+
+   <section id="resume">
+    <h2>Resume</h2>
+    <p>To download my resume, please enter the password below:</p>
+    <form onsubmit="checkPassword(event)">
+        <input type="password" id="password" placeholder="Enter password" required>
+        <button type="submit">Download Resume</button>
+    </form>
+    <!-- CHANGES: Direct link to resume file -->
+    <a id="resume-link" href="Saharsh_Resume.pdf" download="Saharsh_Resume" style="display: none;">Download</a>
+</section>
+	   <!-- Chatbot Button to Open/Close the Chat Interface -->
+<div class="chatbot-button" onclick="toggleChatbot()">Saharsh.ai</div>
+
+<!-- Chatbot Interface -->
+<div class="chatbot-container" id="chatbot-container">
+    <div class="chatbot-header">
+        <h2>Saharsh.ai</h2>
+        <span class="close-chatbot" onclick="toggleChatbot()">✖</span>
+    </div>
+    <div class="chatbot-messages" id="chatbot-messages">
+        <div class="bot-message">Hello! I am Saharsh.ai. What's your name?</div>
+    </div>
+    <div class="chatbot-input">
+        <input type="text" id="user-input" placeholder="Type a message..." onkeydown="if(event.key === 'Enter') handleUserInput()">
+        <button onclick="handleUserInput()">Send</button>
+    </div>
+</div>
+    <footer>
+        <p>© 2024 Kolluru Saharsh|This Site is Created By Kolluru Saharsh |Connect with me on <a href="https://www.linkedin.com/in/kolluru-saharsh-0783b11b6" target="_blank">LinkedIn</a> and <a href="https://github.com/harshu722" target="_blank">GitHub</a></p>
+	</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

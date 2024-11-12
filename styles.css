@@ -1,0 +1,1581 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+}
+#about, #resume {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    margin: 1em 0;
+}
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #555;
+}
+/* General Styles */
+body {
+   font-family: 'Helvetica', sans-serif;
+   background-color: #121212;
+   color: #e0e0e0;
+   margin: 0;
+   padding: 0;
+}
+
+/* Header Image */
+.header-image {
+   background: url('profile.png') no-repeat center center;
+   background-size: cover;
+   color: #fff;
+   padding: 2em;
+   text-align: center;
+}
+
+/* Social Section Background (Page 2) */
+.social-section {
+   background: url('rsm-background.jpg') no-repeat center center;
+   background-size: cover;
+   padding: 3em;
+   color: #fff;
+   text-align: center;
+   border-radius: 10px;
+   max-width: 800px;
+   margin: 2em auto;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.social-section h2 {
+   margin-top: 0;
+}
+
+.social-section ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+.social-section ul li {
+   margin: 1em 0;
+}
+
+.social-section ul li a {
+   color: #fff;
+   text-decoration: none;
+   font-size: 1.2em;
+   transition: color 0.3s;
+}
+
+.social-section ul li a:hover {
+   color: #00aaff; /* Highlight color on hover */
+}
+
+/* Resume Password Form */
+#resume {
+   background-color: #1e1e1e;
+   padding: 2em;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+/* General Styles */
+body {
+   font-family: 'Helvetica', sans-serif;
+   background-color: #121212;
+   color: #e0e0e0;
+   margin: 0;
+   padding: 0;
+}
+
+/* Header Image */
+.header-image {
+   background: url('profile.png') no-repeat center center;
+   background-size: cover;
+   color: #fff;
+   padding: 2em;
+   text-align: center;
+}
+
+/* Overlay Section for Readability */
+.section-overlay {
+   position: relative;
+   padding: 3em;
+   max-width: 800px;
+   margin: auto;
+   color: #fff;
+}
+
+.section-overlay::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: rgba(0, 0, 0, 0.7); /* Semi-transparent dark overlay */
+   z-index: -1;
+   border-radius: 10px;
+}
+
+.section-overlay h2 {
+   font-size: 2em;
+   font-weight: bold;
+   margin-bottom: 0.5em;
+}
+
+.section-overlay p, .section-overlay .about-text {
+   font-weight: 500;
+   line-height: 1.6;
+   color: #e0e0e0;
+   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Social Media Section */
+.social-section {
+   background: url('rsm-background.jpg') no-repeat center center;
+   background-size: cover;
+   padding: 3em;
+   text-align: center;
+   border-radius: 10px;
+   max-width: 800px;
+   margin: 2em auto;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.social-links {
+   list-style-type: none;
+   padding: 0;
+}
+
+.social-links li {
+   margin: 1em 0;
+}
+
+.social-links li a {
+   color: #00aaff;
+   text-decoration: none;
+   font-size: 1.4em;
+   font-weight: bold;
+   transition: color 0.3s, transform 0.3s;
+}
+
+.social-links li a:hover {
+   color: #ffdd44;
+   transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+   background-color: #333;
+   color: #bbb;
+   text-align: center;
+   padding: 1em;
+   font-size: 0.9em;
+}
+
+footer a {
+   color: #bbb;
+   text-decoration: underline;
+}
+
+/* Smooth Transitions */
+* {
+   transition: all 0.3s ease-in-out;
+}
+/* General Styles */
+body {
+   font-family: 'Helvetica', sans-serif;
+   background-color: #121212;
+   color: #e0e0e0;
+   margin: 0;
+   padding: 0;
+}
+
+/* Header Image */
+.header-image {
+   background: url('profile.png') no-repeat center center;
+   background-size: cover;
+   color: #fff;
+   padding: 2em;
+   text-align: center;
+}
+
+header h1 {
+   font-size: 2.5em;
+   font-weight: bold;
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* CHANGES: Added shadow for better visibility */
+}
+
+nav ul {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   padding: 0;
+}
+/* About Me Section Container with Gallery */
+.about-container {
+   display: flex;
+   gap: 2em;
+   align-items: flex-start; /* Align text and images at the top */
+}
+
+.about-text {
+   flex: 2;
+   color: #000;
+   background: rgba(255, 255, 255, 0.9);
+   padding: 2em;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-gallery {
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+}
+
+.gallery-image {
+   width: 100px; /* Fixed width to ensure uniform size */
+   height: 100px; /* Fixed height to ensure uniform size */
+   object-fit: cover; /* Ensure images are cropped to fit without distortion */
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   animation: bounce 2s infinite alternate; /* Bounce animation */
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+   from {
+       transform: translateY(0);
+   }
+   to {
+       transform: translateY(-10px);
+   }
+}
+
+
+/* About Me Section Container with Gallery */
+.about-container {
+   display: flex;
+   gap: 2em;
+   align-items: flex-start; /* Align text and images at the top */
+}
+
+.about-text {
+   flex: 2;
+   color: #000; /* CHANGES: Black text for readability */
+   background: rgba(255, 255, 255, 0.9); /* CHANGES: Light background */
+   padding: 2em;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-gallery {
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+}
+
+.gallery-image {
+   width: 100%; /* Scale to fit within layout */
+   max-width: 150px; /* Ensure the images stay within bounds */
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   animation: bounce 2s infinite alternate; /* CHANGES: Bounce animation */
+}
+
+/* CHANGES: Bounce Animation */
+@keyframes bounce {
+   from {
+       transform: translateY(0);
+   }
+   to {
+       transform: translateY(-10px);
+   }
+}
+
+/* Hobbies Section */
+.hobbies-section {
+   padding: 3em;
+   max-width: 800px;
+   margin: auto;
+   background: #f5f5f5; /* Light background for text visibility */
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   text-align: left;
+}
+
+.hobbies-section h2 {
+   font-size: 2em;
+   font-weight: bold;
+   color: #333;
+}
+
+.hobbies-section ul {
+   list-style-type: disc;
+   padding-left: 1.5em;
+   color: #444;
+   line-height: 1.6;
+}
+
+
+
+nav ul li a {
+   color: #fff;
+   text-decoration: none;
+   font-weight: bold;
+   transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+   color: #00aaff;
+}
+
+/* Overlay Section for Readability */
+.section-overlay {
+   position: relative;
+   padding: 3em;
+   max-width: 800px;
+   margin: auto;
+   color: #000; /* CHANGES: Set text color to black */
+   background: rgba(255, 255, 255, 0.9); /* CHANGES: Light background for black text */
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   transition: transform 0.3s ease;
+}
+
+.section-overlay:hover {
+   transform: scale(1.02); /* CHANGES: Added scale effect on hover */
+}
+
+.section-overlay h2 {
+   font-size: 2em;
+   font-weight: bold;
+   margin-bottom: 0.5em;
+}
+
+.section-overlay p, .section-overlay .about-text {
+   font-weight: 500;
+   line-height: 1.6;
+   color: #000; /* CHANGES: Set text color to black for readability */
+   text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5); /* CHANGES: Subtle text shadow */
+}
+
+/* Social Media Section */
+.social-section {
+   background: url('rsm-background.jpg') no-repeat center center;
+   background-size: cover;
+   padding: 3em;
+   text-align: center;
+   border-radius: 10px;
+   max-width: 800px;
+   margin: 2em auto;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+   position: relative;
+}
+
+.social-section::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: rgba(0, 0, 0, 0.6); /* CHANGES: Added dark overlay for text readability */
+   border-radius: 10px;
+   z-index: -1;
+}
+
+.social-links {
+   list-style-type: none;
+   padding: 0;
+}
+
+.social-links li {
+   margin: 1em 0;
+}
+
+.social-links li a {
+   color: #00aaff;
+   text-decoration: none;
+   font-size: 1.4em;
+   font-weight: bold;
+   transition: color 0.3s, transform 0.3s;
+}
+
+.social-links li a:hover {
+   color: #ffdd44;
+   transform: translateY(-5px) scale(1.1); /* CHANGES: Added lift and scale effect on hover */
+}
+
+/* Footer */
+footer {
+   background-color: #333;
+   color: #bbb;
+   text-align: center;
+   padding: 1em;
+   font-size: 0.9em;
+}
+
+footer a {
+   color: #bbb;
+   text-decoration: underline;
+}
+
+/* Smooth Transitions */
+* {
+   transition: all 0.3s ease-in-out; /* CHANGES: Added smooth transition */
+}
+
+/* Hobbies Section */
+.hobbies-section {
+   padding: 3em;
+   max-width: 800px;
+   margin: auto;
+   background: #f5f5f5;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   text-align: left;
+}
+
+.hobbies-section h2 {
+   font-size: 2em;
+   font-weight: bold;
+   color: #333;
+}
+
+.hobbies-section ul {
+   list-style-type: disc;
+   padding-left: 1.5em;
+   color: #444;
+   line-height: 1.6;
+}
+
+/* Video Section */
+.video-section {
+   padding: 3em;
+   max-width: 800px;
+   margin: 2em auto;
+   text-align: center;
+   background: #f0f0f0;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-section h2 {
+   font-size: 1.8em;
+   font-weight: bold;
+   color: #333;
+   margin-bottom: 1em;
+}
+
+/* Memories/Gallery Section */
+.memories-section {
+   padding: 3em;
+   max-width: 800px;
+   margin: 2em auto;
+   background: #ffffff;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   text-align: center;
+}
+
+.memories-section h2 {
+   font-size: 1.8em;
+   font-weight: bold;
+   color: #333;
+   margin-bottom: 1em;
+}
+
+/* Gallery Grid Layout */
+.gallery-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+   gap: 10px;
+}
+
+.gallery-image {
+   width: 100%;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+   transform: scale(1.05);
+}
+/* Lightbox Styling */
+.lightbox {
+   display: none; /* Initially hidden */
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.8); /* Semi-transparent dark overlay */
+   align-items: center;
+   justify-content: center;
+   z-index: 1000; /* Make sure it appears above other elements */
+}
+
+.lightbox img {
+   max-width: 90%;
+   max-height: 90%;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+   transition: transform 0.3s ease;
+}
+
+.lightbox:active img {
+   transform: scale(0.95); /* Adds a subtle effect when clicking */
+}
+
+/* Smooth Transition for All Elements */
+* {
+   transition: all 0.3s ease-in-out;
+}
+
+/* Header Image Styling */
+.header-image {
+   background: url('profile.png') no-repeat center center;
+   background-size: cover;
+   color: #fff;
+   padding: 2em;
+   text-align: center;
+}
+
+header h1 {
+   font-size: 2.5em;
+   font-weight: bold;
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Social Links Hover Effect */
+.social-links li a {
+   color: #00aaff;
+   font-size: 1.4em;
+   font-weight: bold;
+   transition: color 0.3s, transform 0.3s;
+}
+
+.social-links li a:hover {
+   color: #ffdd44;
+   transform: translateY(-5px) scale(1.1);
+}
+
+/* GitHub Projects Section */
+.projects-section {
+   padding: 3em;
+   max-width: 800px;
+   margin: 2em auto;
+   background: #f0f0f0;
+   border-radius: 10px;
+   text-align: left;
+}
+
+.project-card {
+   display: flex;
+   gap: 1em;
+   background: #ffffff;
+   padding: 1em;
+   margin-bottom: 1.5em;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+   width: 150px;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 8px;
+   transition: transform 0.3s;
+}
+
+.project-card:hover .project-image {
+   transform: scale(1.05);
+}
+
+/* Gallery Image with Bounce Animation */
+.gallery-image {
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   animation: bounce 2s infinite alternate;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+   from {
+       transform: translateY(0);
+   }
+   to {
+       transform: translateY(-10px);
+   }
+}
+/* Smooth Transition for All Elements */
+* {
+   transition: all 0.3s ease-in-out;
+}
+
+/* Header Image Styling */
+.header-image {
+   background: url('profile.png') no-repeat center center;
+   background-size: cover;
+   color: #fff;
+   padding: 2em;
+   text-align: center;
+}
+
+/* Navigation Bounce Effect */
+.nav-links .bounce {
+   animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+   0%, 20%, 50%, 80%, 100% {
+       transform: translateY(0);
+   }
+   40% {
+       transform: translateY(-10px);
+   }
+   60% {
+       transform: translateY(-5px);
+   }
+}
+
+/* About Me Animation */
+.about-animation {
+   opacity: 0;
+   transform: translateY(20px);
+   animation: fadeInUp 1s forwards ease-in-out;
+}
+
+@keyframes fadeInUp {
+   to {
+       opacity: 1;
+       transform: translateY(0);
+   }
+}
+
+/* Social Links Hover Effect */
+.social-links li a {
+   color: #00aaff;
+   font-size: 1.4em;
+   font-weight: bold;
+   transition: color 0.3s, transform 0.3s;
+}
+
+.social-links li a:hover {
+   color: #ffdd44;
+   transform: translateY(-5px) scale(1.1);
+}
+
+/* GitHub Projects Section */
+.projects-section {
+   padding: 3em;
+   max-width: 800px;
+   margin: 2em auto;
+   background: #f0f0f0;
+   border-radius: 10px;
+   text-align: left;
+}
+
+.project-card {
+   display: flex;
+   gap: 1em;
+   background: #ffffff;
+   padding: 1em;
+   margin-bottom: 1.5em;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Resized Project Images */
+.project-image {
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   border-radius: 8px;
+   transition: transform 0.3s;
+}
+
+.project-card:hover .project-image {
+   transform: scale(1.05);
+}
+
+/* Gallery Image with Bounce Animation */
+.gallery-image {
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   animation: bounce 2s infinite alternate;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+   .about-container {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .project-card {
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+   }
+
+   .project-image {
+       width: 100%;
+       height: auto;
+       max-width: 150px;
+   }
+
+   .header-image h1 {
+       font-size: 1.8em;
+   }
+
+   .nav-links {
+       display: flex;
+       flex-direction: column;
+       gap: 1em;
+   }
+}
+/* Bounce Effect for Navigation Links */
+.bounce {
+   animation: bounceEffect 2s infinite;
+}
+
+@keyframes bounceEffect {
+   0%, 20%, 50%, 80%, 100% {
+       transform: translateY(0);
+   }
+   40% {
+       transform: translateY(-10px);
+   }
+   60% {
+       transform: translateY(-5px);
+   }
+}
+
+/* Other Styling */
+.header-image h1 {
+   font-size: 2.5em;
+   font-weight: bold;
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.nav-links {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   padding: 0;
+   list-style: none;
+}
+
+.nav-links a {
+   color: #fff;
+   font-weight: bold;
+   text-decoration: none;
+   transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+   color: #00aaff;
+}
+/* Welcome Message Styling */
+.welcome-message {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: #333;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+   font-size: 1.2em;
+   z-index: 1000;
+   display: none; /* Hidden by default */
+}
+
+.close-message {
+   margin-left: 10px;
+   cursor: pointer;
+   font-weight: bold;
+   color: #ff4444;
+}
+
+/* Header Image Styling */
+.header-image {
+   background: url('profile.png') no-repeat center center;
+   background-size: cover;
+   color: #fff;
+   padding: 2em;
+   text-align: center;
+}
+
+/* Bounce Effect for Navigation Links */
+.bounce {
+   animation: bounceEffect 2s infinite;
+}
+
+@keyframes bounceEffect {
+   0%, 20%, 50%, 80%, 100% {
+       transform: translateY(0);
+   }
+   40% {
+       transform: translateY(-10px);
+   }
+   60% {
+       transform: translateY(-5px);
+   }
+}
+
+/* About Me Animation */
+.about-animation {
+   opacity: 0;
+   transform: translateY(20px);
+   animation: fadeInUp 1s forwards ease-in-out;
+}
+
+@keyframes fadeInUp {
+   to {
+       opacity: 1;
+       transform: translateY(0);
+   }
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+   .about-container {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .project-card {
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+   }
+
+   .project-image {
+       width: 100%;
+       height: auto;
+       max-width: 150px;
+   }
+
+   .header-image h1 {
+       font-size: 1.8em;
+   }
+
+   .nav-links {
+       display: flex;
+       flex-direction: column;
+       gap: 1em;
+   }
+}
+
+/* Gallery Image with Bounce Animation */
+.gallery-image {
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   animation: bounceEffect 2s infinite alternate;
+}
+
+/* Navigation Link Styling */
+.nav-links {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   padding: 0;
+   list-style: none;
+}
+
+.nav-links a {
+   color: #fff;
+   font-weight: bold;
+   text-decoration: none;
+   transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+   color: #00aaff;
+}
+
+/* Typing Animation for Name */
+.typing-animation {
+   font-size: 2.5em;
+   font-weight: bold;
+   color: #fff;
+   overflow: hidden;
+   border-right: 3px solid #fff;
+   white-space: nowrap;
+   animation: typing 3s steps(15, end) forwards, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+   from {
+       width: 0;
+   }
+   to {
+       width: 100%;
+   }
+}
+
+@keyframes blink-caret {
+   50% {
+       border-color: transparent;
+   }
+}
+
+/* Slide-Up Animation for "About Me" */
+.about-header {
+   opacity: 0; /* Start invisible */
+   transform: translateY(30px); /* Start slightly lower */
+   animation: slideUp 1.5s ease forwards; /* Animation on load */
+   animation-delay: 0.5s; /* Optional delay for smooth effect */
+}
+
+@keyframes slideUp {
+   from {
+       opacity: 0;
+       transform: translateY(30px); /* Start from lower position */
+   }
+   to {
+       opacity: 1;
+       transform: translateY(0); /* End at normal position */
+   }
+}
+
+/* Contact Page Styling */
+body {
+   background-color: #121212;
+   color: #ffffff;
+   font-family: Arial, sans-serif;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   border-bottom: 1px solid #333;
+}
+
+.logo {
+   color: #ff414d;
+   font-weight: bold;
+   font-size: 24px;
+}
+
+.nav-links a {
+   color: #fff;
+   text-decoration: none;
+   margin-right: 15px;
+}
+
+.nav-links a.active {
+   color: #ff414d;
+}
+
+.contact-section {
+   padding: 60px 20px;
+   max-width: 1000px;
+   margin: auto;
+   text-align: center;
+}
+
+.contact-header {
+   font-size: 36px;
+   margin-bottom: 20px;
+   animation: fadeIn 1s ease;
+}
+
+.contact-container {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.contact-info {
+   max-width: 300px;
+   text-align: left;
+}
+
+.contact-info p {
+   margin: 10px 0;
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.social-icons a {
+   color: #ff414d;
+   margin: 0 10px;
+   font-size: 20px;
+   transition: color 0.3s;
+}
+
+.social-icons a:hover {
+   color: #ffffff;
+}
+
+.download-cv {
+   display: inline-block;
+   background-color: #ff414d;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   font-size: 16px;
+   margin-top: 15px;
+   cursor: pointer;
+   text-decoration: none;
+   transition: box-shadow 0.3s ease, background-color 0.3s ease;
+   border-radius: 5px;
+}
+
+.download-cv:hover {
+   box-shadow: 0 4px 10px rgba(255, 65, 77, 0.5);
+   background-color: #ff616d;
+}
+
+.contact-form {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   max-width: 400px;
+   width: 100%;
+}
+
+.contact-form input, .contact-form textarea {
+   width: 100%;
+   padding: 10px;
+   background: #333;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+}
+
+.submit-button {
+   background-color: #ff414d;
+   color: #fff;
+   border: none;
+   padding: 10px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: box-shadow 0.3s ease;
+}
+
+.submit-button:hover {
+   box-shadow: 0 4px 10px rgba(255, 65, 77, 0.5);
+}
+
+/* Footer Styling */
+footer {
+   background-color: #333;
+   color: #ff414d;
+   padding: 20px;
+   text-align: center;
+   font-size: 14px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+   from {
+       opacity: 0;
+       transform: translateY(20px);
+   }
+   to {
+       opacity: 1;
+       transform: translateY(0);
+   }
+}
+
+/* Blurred Background Image */
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('Mckinsey.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(10px); /* Blurred effect */
+    opacity: 0.3; /* Adjust transparency for subtle background */
+    z-index: -1; /* Ensures it stays behind all content */
+}
+
+/* Section Header with Red Line Animation */
+.section-header {
+    position: relative;
+    font-size: 2em;
+    margin: 20px 0;
+    color: #000; /* Black color for high contrast */
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Red line animation under the header */
+.section-header::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #ff414d; /* Red color for the line */
+    margin: 10px auto;
+    animation: redLine 1s ease-in-out forwards;
+}
+
+/* Keyframes for fade-in effect on text */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Slide from below */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Original position */
+    }
+}
+
+/* Keyframes for red line animation */
+@keyframes redLine {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50px; /* Final width of the red line */
+    }
+}
+
+/* Bounce animation for nav items */
+.bounce {
+    display: inline-block;
+    animation: bounceAnimation 1.5s ease infinite;
+}
+
+/* Keyframes for bouncing effect */
+@keyframes bounceAnimation {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Blurred Background for Social Media & Projects and Hobbies Sections */
+
+/* Social Media & Projects Section */
+#social-media {
+    background: url('Mckinsey.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(8px); /* Decent blur effect */
+    opacity: 0.5; /* Light transparency */
+    padding: 30px;
+    color: #000; /* Ensures text is readable */
+    position: relative;
+    z-index: 1; /* Keep content above the background */
+}
+
+/* Hobbies Section */
+#hobbies {
+    background: url('Mckinsey.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(8px); /* Decent blur effect */
+    opacity: 0.5; /* Light transparency */
+    padding: 30px;
+    color: #000; /* Ensures text is readable */
+    position: relative;
+    z-index: 1; /* Keep content above the background */
+}
+
+/* Blurred Background for Social Media & Projects and Hobbies Sections */
+#social-media, #hobbies {
+    background: url('Mckinsey.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    padding: 30px;
+    color: #fff; /* Ensures text contrast on background */
+    z-index: 1;
+}
+
+#social-media::before, #hobbies::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for readability */
+    filter: blur(8px); /* Blurred effect */
+    z-index: -1; /* Places the overlay behind the content */
+}
+
+/* GitHub Projects Card Styling for Readability */
+.project-card {
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for text contrast */
+    color: #000; /* Black text for readability */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.project-content h3 {
+    color: #000000; /* Black color for title */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-content p {
+    color: #333333; /* Dark grey for readability */
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.project-content a {
+    color: #ff414d; /* Bright color for link */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-content a:hover {
+    color: #000000; /* Black on hover */
+}
+
+/* Blurred McKinsey Background for Specific Sections */
+#social-media, #hobbies {
+    position: relative;
+    padding: 30px;
+    color: #ffffff; /* White text for readability */
+    z-index: 1;
+    overflow: hidden; /* Ensures the background overlay stays within bounds */
+}
+
+/* Background overlay for Social Media & Projects */
+#social-media::before, #hobbies::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('Mckinsey.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(10px); /* Apply blur effect */
+    opacity: 0.4; /* Light transparency for readability */
+    z-index: -1; /* Ensures the overlay stays behind content */
+}
+
+/* Social Media & Projects and Hobbies Sections with Blurred McKinsey Background */
+#social-media, #hobbies {
+    position: relative;
+    background: url('Mckinsey.jpg') no-repeat center center fixed; /* Fixed McKinsey background */
+    background-size: cover;
+    color: #ffffff; /* White text for readability */
+    padding: 50px 20px; /* Padding for section content */
+    overflow: hidden; /* Prevents any overflow issues */
+}
+
+/* Blurred overlay effect */
+#social-media::after, #hobbies::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit; /* Inherits the background image */
+    filter: blur(10px); /* Apply blur effect */
+    opacity: 0.4; /* Light opacity for readability */
+    z-index: -1; /* Places the overlay behind the text */
+}
+
+/* Ensures content within sections remains readable and on top */
+#social-media > *, #hobbies > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Contact Page Background with Snappy Effect */
+.contact-background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('Mckinsey.jpg') no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(8px);
+    opacity: 0.3;
+    z-index: -1;
+    transition: transform 0.3s ease-in-out; /* Snappy transition */
+}
+
+/* Zoom effect on hover for snappy effect */
+.contact-background-overlay:hover {
+    transform: scale(1.05); /* Slight zoom for snappy effect */
+}
+
+/* Contact Page Styling */
+body, .contact-container, footer {
+    position: relative;
+    z-index: 1;
+    color: #ffffff; /* White text for contrast */
+    background: rgba(0, 0, 0, 0.6); /* Slight overlay for readability */
+    padding: 20px;
+    margin: 0;
+}
+
+/* Styling for form and contact info */
+.contact-info p, .contact-form label {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #ff414d;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e03a45; /* Darker red on hover */
+}
+
+/* About Me Section with Snappy Background Effect */
+.about-section {
+    position: relative;
+    padding: 60px 20px;
+    color: #ffffff; /* White text for readability */
+    overflow: hidden;
+    background: url('Mckinsey.jpg') no-repeat center center; /* McKinsey background */
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Snappy zoom-in effect on hover */
+.about-section:hover {
+    transform: scale(1.03); /* Zoom in slightly on hover for snappy effect */
+}
+
+/* Background overlay for readability */
+.about-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: -1;
+}
+
+/* Slide-in animation for text */
+.about-content {
+    position: relative;
+    z-index: 1;
+    animation: slideIn 1s ease-out; /* Slide-in animation on load */
+}
+
+/* Keyframes for slide-in effect */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Starts below and moves up */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Ends in the original position */
+    }
+}
+
+/* Social Media & Projects and Hobbies Sections with Blurred McKinsey Background */
+#social-media, #hobbies {
+    position: relative;
+    color: #ffffff; /* White text for readability */
+    padding: 50px 20px; /* Padding for section content */
+    overflow: hidden; /* Prevents any overflow issues */
+}
+
+/* Background Layer with Blurred McKinsey Image */
+#social-media::before, #hobbies::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('Mckinsey.jpg') no-repeat center center; /* McKinsey background */
+    background-size: cover;
+    filter: blur(15px); /* Strong blur effect */
+    opacity: 0.5; /* Adjust transparency for readability */
+    z-index: -1; /* Places the background behind content */
+}
+
+/* Ensures content within sections remains readable and on top */
+#social-media > *, #hobbies > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Chatbot Button */
+.chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff414d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+    z-index: 1000; /* Ensures it stays on top */
+}
+
+.chatbot-button:hover {
+    background-color: #e03a45;
+}
+
+/* Chatbot Container */
+.chatbot-container {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    background-color: #121212;
+    border-radius: 10px;
+    overflow: hidden;
+    display: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+}
+
+.chatbot-header {
+    background-color: #ff414d;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-chatbot {
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.chatbot-messages {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    font-size: 0.9em;
+}
+
+.chatbot-messages .bot-message, .chatbot-messages .user-message {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.bot-message {
+    background-color: #333;
+    text-align: left;
+}
+
+.user-message {
+    background-color: #444;
+    text-align: right;
+}
+
+.chatbot-input {
+    display: flex;
+    border-top: 1px solid #444;
+}
+
+.chatbot-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+}
+
+.chatbot-input button {
+    padding: 10px;
+    background-color: #ff414d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
