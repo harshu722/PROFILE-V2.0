@@ -1579,3 +1579,26 @@ body, .contact-container, footer {
     cursor: pointer;
 }
 
+/* Social Media & Projects and Hobbies Sections with Blurred McKinsey Background */
+#social-media, #hobbies {
+    position: relative;
+    background: url('Mckinsey.jpg') no-repeat center center; /* Ensure path and case are correct */
+    background-size: cover;
+    color: #ffffff;
+    padding: 50px 20px;
+    overflow: hidden;
+}
+
+/* Background blur effect */
+#social-media::before, #hobbies::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(15px); /* Adjust blur as needed */
+    opacity: 0.5; /* Adjust transparency */
+    z-index: -1; /* Places the background behind content */
+}
