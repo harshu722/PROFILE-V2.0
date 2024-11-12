@@ -1602,3 +1602,22 @@ body, .contact-container, footer {
     opacity: 0.5; /* Adjust transparency */
     z-index: -1; /* Places the background behind content */
 }
+
+/* Social Media & Projects and Hobbies Sections with Blurred McKinsey Background */
+#social-media, #hobbies {
+    position: relative;
+    color: #ffffff; /* Text color for readability */
+    padding: 50px 20px; /* Section padding */
+    background: url('Mckinsey.jpg') no-repeat center center fixed; /* Fixed background for parallax effect */
+    background-size: cover; /* Ensures full coverage of the background image */
+    filter: blur(8px); /* Adjust the blur as desired */
+    opacity: 0.7; /* Adjust the transparency as needed */
+    z-index: -1; /* Keeps the background behind content */
+}
+
+/* Ensuring that text and elements are visible above the background */
+#social-media > *, #hobbies > * {
+    position: relative;
+    z-index: 1;
+}
+
